@@ -1,0 +1,28 @@
+body {
+    background-color: gold;
+}
+#first {   
+    color: red;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: verdana;
+}
+
+.plain {
+    font-size: 30px;
+    background-color: aquamarine;
+    color:darkslategray
+}
+#last {
+    background-color: blue;
+    color: chartreuse;
+}
+
+p {
+    background-color: black;
+    color: blueviolet;
+}
+a {
+    background-color: coral;
+    color: darkred;
+}
