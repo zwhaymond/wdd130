@@ -1,0 +1,17 @@
+body {
+    background-color: dimgray;
+}
+
+#front img{
+    width: 100%;
+
+}
+
+.circles img {
+    width: 33.33%;
+    float: left;
+    border-radius: 50%;
+}
+.circles {
+    border-color: rgb(51, 51, 51);
+}

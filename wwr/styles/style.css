@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Burned&display=swap');
+
 #content {
     max-width: 1600px;
     margin: auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -24,10 +27,15 @@ nav a:hover {
 
 .button-box {
     text-align: center;
+    padding-bottom: 200px;
 }
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -37,23 +45,25 @@ main section {
 
 body {
     background-color: #503d3f  ;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #52ffb8;
 }
 
-.book {
+.book, .join {
     background-color: #52ffb8;
     color: #503d3f ;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.join {
-    background-color: #52ffb8;
-    color:#503d3f ;
-    text-decoration: none;
-}
 .book:hover {
     background-color: white;
     color: #503d3f ;
@@ -70,6 +80,8 @@ header {
 footer {
     background-color: #52ffb8;
     color: #503d3f ;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -88,6 +100,8 @@ footer p {
 
 .home-title {
     color: #52ffb8;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -96,25 +110,53 @@ h4 {
 
 .msg h2 {
     color: #503d3f;
+    font-family: "Rubik Burned", Helvetica, sans-serif;
 }
 .msg p {
     color: #503d3f;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 h2 {
     color:#52ffb8;
+    margin: 0;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 } 
 
+.home-title {
+    font-family: "Rubik Burned", Helvetica, sans-serif;
+}
 
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card, .mountains {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #000000;
+}
