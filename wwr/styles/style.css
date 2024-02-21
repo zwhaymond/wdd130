@@ -143,11 +143,11 @@ h4 {
 }
 
 .msg h2 {
-    color: #503d3f;
+    color: #413233;
     font-family: "Rubik Burned", Helvetica, sans-serif;
 }
 .msg p {
-    color: #503d3f;
+    color: #413233;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -224,7 +224,7 @@ footer .social img {
 }
 
 .msg {
-    background-color: #6f7364;
+    background-color: #d9c2a3;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
